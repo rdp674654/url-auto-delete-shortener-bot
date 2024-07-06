@@ -1,7 +1,7 @@
 if [ -z $UPSTREAM_REPO ]
 then
   echo "Cloning main Repository"
-  git clone https://github.com/rdp674654/url-auto-delete-shortener-bot/tree/main
+  git clone https://github.com/rdp674654/url-auto-delete-shortener-bot/
 else
   echo "Cloning Custom Repo from $UPSTREAM_REPO "
   git clone $UPSTREAM_REPO /Eva
